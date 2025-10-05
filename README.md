@@ -4,7 +4,7 @@ Simple machine-learning notebook that predicts diabetes (binary classification) 
 
 ## Files
 - `01 Diabetes Prediction [Supervised].ipynb` — main notebook (exploration, preprocessing, models)
-- `Datasets/diabetes.csv` — dataset file read by the notebook
+- `diabetes.csv` — dataset file read by the notebook
 - `requirements.txt` — Python packages needed
 - `.gitignore` — ignore rules
 
@@ -22,13 +22,9 @@ Simple machine-learning notebook that predicts diabetes (binary classification) 
    source venv/bin/activate
    # windows (powershell)
    venv\Scripts\Activate.ps1
-Install dependencies:
-
-bash
-Copy code
-pip install -r requirements.txt
-Open the notebook:
-
-bash
-Copy code
-jupyter notebook "01 Diabetes Prediction [Supervised].ipynb"
+3. Install dependencies:
+   Copy code
+   pip install -r requirements.txt
+4. Open the notebook:
+   Copy code
+   jupyter notebook "01 Diabetes Prediction [Supervised].ipynb"
